@@ -18,3 +18,13 @@ High (Simulated)
 6. Store credentials using environment variables.
 7. Test the corrected application.
 8. Document the incident using GitHub Issues.
+## Containment Actions
+
+1. Identified exposed API key, password and user ID.
+2. Assessed the affected source code and Git history.
+3. Planned revocation and replacement of compromised
+   credentials.
+4. Restricted GitHub Actions workflow permissions
+   to read-only access.
+5. Reviewed repository collaborator permissions.
+6. Applied the Principle of Least Privilege.
