@@ -28,3 +28,13 @@ High (Simulated)
    to read-only access.
 5. Reviewed repository collaborator permissions.
 6. Applied the Principle of Least Privilege.
+## Eradication and Recovery
+
+1. Removed hardcoded API key, password and user ID.
+2. Replaced hardcoded credentials with environment variables.
+3. Created a .gitignore file to protect sensitive files.
+4. Configured dummy environment variables for testing.
+5. Executed the Python application successfully.
+6. Verified that hardcoded credentials are absent
+   from the current source code.
+7. Committed and pushed the security fix.
